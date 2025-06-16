@@ -51,7 +51,7 @@ while True:
 ![image](https://github.com/user-attachments/assets/ef2b17d1-a115-4860-9a76-6144263f1651)
 
 ## PROGRAM - RARP
-## SERVER
+## CLIENT
 ```
 import socket
 s=socket.socket()
@@ -61,7 +61,7 @@ while True:
     encode())
     print("Logical Address",s.recv(1024).decode())
 ```
-## CLIENT
+## SERVER
 ```
 import socket
 s=socket.socket()
